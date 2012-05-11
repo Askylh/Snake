@@ -61,11 +61,14 @@ def one_round5():
 def one_round7():
     # shuffle a deck
     deck = list(DECK)
+    print deck
     random.shuffle(deck)
     # draw community and two hands
-    community = deck[:3]
+    community = deck[:5]
     hand1 = deck[11:13]
     hand2 = deck[7:9]
+    print deck
+    print hand1
     # evaluate the hands
     score1 = eval7(community + hand1)
     score2 = eval7(community + hand2)
