@@ -79,11 +79,11 @@ def one_round7():
     hand2 = '[%s]' % ' '.join(hand2)
     print community
     if score1 < score2:
-        print 'H1%s beats h2%s' % (hand1, hand2)
+        print 'H1%s beats h2%s score h1:%s score h2:%s' % (hand1, hand2, score1, score2)
     elif score1 == score2:
         print '%s ties %s' % (hand1, hand2)
     else:
-        print 'H2%s beats h1%s' % (hand2, hand1)
+        print 'H2%s beats h1%s score h2:%s score h1:%s' % (hand2, hand1, score2,score1)
     print
 
 if __name__ == '__main__':
