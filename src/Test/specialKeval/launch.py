@@ -5,6 +5,6 @@ Created on 11 mai 2012
 '''
 from SevenEval import SevenEval
 
-Heval=SevenEval
+Heval=SevenEval()
 
-Heval.getRankOfSeven(1, 2, 3, 4, 3, 5, 6)
+print(Heval.getRankOfSeven(0, 2, 3, 4, 3, 5, 6))
