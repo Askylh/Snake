@@ -9,6 +9,6 @@ from pokereval import PokerEval
 
 Peval = PokerEval()
 iteration=100000
-a = Peval.poker_eval(game='holdem', pockets=[["tc", "ts"], ["kd", "ad"]], board=["__", "__", "__", "__", "__"], iterations=iteration)
+ev = Peval.poker_eval(game='holdem', pockets=[["tc", "ts"], ["kd", "ad"]], board=["__", "__", "__", "__", "__"], iterations=iteration)
 
-print a['eval']
+print ev['eval']
