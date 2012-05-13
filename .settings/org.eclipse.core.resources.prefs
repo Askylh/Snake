@@ -1,4 +1,7 @@
 eclipse.preferences.version=1
+encoding//src/ClasseSnk/Launch.py=utf-8
+encoding//src/ClasseSnk/OCRSnk.py=utf-8
+encoding//src/ClasseSnk/tesseract.py=utf-8
 encoding//src/Test/cactushandeval/launch.py=utf-8
 encoding//src/Test/specialKeval/Constants.py=utf-8
 encoding//src/Test/specialKeval/FiveEval.py=utf-8
