@@ -10,7 +10,7 @@ import pyscreenshot as IG
 
 
 #img = Image.open('/home/chris/Documents/snake/Test/wina.bmp')
-img=IG.grab(bbox=(400,80,815,97))
+img=IG.grab(bbox=(0,0,185,20))
 
-OCRimg = OCR(img, True, True)
+OCRimg = OCR(img, False, False )
 print OCRimg.tostring()
