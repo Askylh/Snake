@@ -67,7 +67,7 @@ def one_round7():
     community = deck[:3]
     hand1 = deck[11:13]
     #hand2 = deck[7:9]
-    hand2 = ['Jd', 'Td']
+    hand2 = ['Ad', 'As']
     #print deck
     #print hand1
     # evaluate the hands
