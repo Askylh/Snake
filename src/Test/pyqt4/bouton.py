@@ -20,6 +20,12 @@ def main(args):
     bouton.setFont(QFont("Comic Sans MS", 20, QFont.Bold, True))
     bouton.setCursor(QtCore.Qt.CrossCursor)
     bouton.setIcon(QIcon("smil.png"))
+    bouton.setGeometry(60, 50, 280, 70)
+    autreBouton=QPushButton(app.trUtf8("Et çui­ci ?"),bouton) #autre bouton fils du premier bouton
+    autreBouton.setFont(QFont("Arial", 10,QFont.Bold,True))
+    autreBouton.move(40,10)
+
+
     fenetre.show()
     r = app.exec_()
     return r
